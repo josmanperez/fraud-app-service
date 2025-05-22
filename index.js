@@ -17,6 +17,10 @@ async function getDb() {
   return client.db(dbName);
 }
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
 app.post('/fuzzy', async (req, res) => {
   try {
     const { pipeline, col } = req.body;
