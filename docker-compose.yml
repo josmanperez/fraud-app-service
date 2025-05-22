@@ -1,0 +1,11 @@
+services:
+  fuzzy-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fuzzy-service
+    env_file:
+      - .env
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
