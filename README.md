@@ -46,3 +46,4 @@ This setup has allowed us to open an API where we can query the name of the indi
 Once you have done everything, we can move on to the next part:
 - [Installation of the backend](../backend/)
 - Or go back [to the main page](../)
+
